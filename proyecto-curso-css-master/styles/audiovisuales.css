@@ -1,0 +1,36 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgb(251, 251, 255), rgb(39, 213, 158));
+    padding-bottom: 100px;
+}
+
+header {
+    text-align: left;
+}
+.centrado{
+display: flex;
+justify-content: center;
+}
+
+.deLado{
+    float: left;
+    width: auto;
+   
+    }
+
+.galeria{
+margin: 5px;
+border: 1px solid black;
+float: left;
+width: 33vw;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+.descripcion{
+    padding: 15px;
+    text-align: center;
+}
